@@ -1,0 +1,99 @@
+body{
+  font-family: 'Poppins', sans-serif;
+    background-color: #24A19C;
+    color: white;
+    
+}
+h1{
+    color: azure;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+       
+ 
+}
+.Container-main{    
+  
+    width:30%;
+    margin: 170px auto;
+    text-align: center;
+
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.input-field{
+    display: block; 
+    padding: 5px 0;    
+    margin: 0 auto;
+    width: 50%;
+    outline: none;
+    border-color: white;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 10px;
+    border-radius: 0px;
+   
+}
+.inp_1{
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+
+
+.inp_2{
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #FAEEE7;
+  border-radius: 6px;
+ 
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #24A19C;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width:50%;
+}
+
+
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+#logo{
+font-size: 50px;
+}
